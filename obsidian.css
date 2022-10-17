@@ -4,6 +4,7 @@
 	--code-normal: #FB463B;
 	--text-accent:#814CFF;
 	--background-primary:#262626ff;
+	--background-primary-alt:#161616;
 	--background-modifier-error:#5C0000;
     --background-modifier-error-hover: #990000;
 	/*	--text-selection:;*/
@@ -69,20 +70,24 @@ body {
     --callout-padding: 0;
     --callout-title-padding: var(--size-4-2) var(--size-4-2) var(--size-4-2) var(--size-4-3);
     --callout-content-padding: var(--size-4-2) var(--size-4-2) var(--size-4-2) var(--size-4-3);
-    --callout-radius: 0;
+    --callout-radius: 5px;
+    --callout-border-opacity:  1;
 }
 
 .callout {
     border-left: 4px solid rgba(var(--callout-color), 1);
 }
 
-.callout-title {
+.callout-title-inner {
     color: #DCDDDE;
+}
+
+.callout-title {
     background-color: rgba(var(--callout-color), 0.2);
 }
 
 .callout-content {
-    background-color: #161616;
+  background-color: var(--background-primary-alt);
 }
 
 /* --- Purple clickable tag button --- */
@@ -94,13 +99,13 @@ body {
 		
 /* --- Old sidebar color --- */
 .workspace-leaf-content {
-    background-color: #161616;
+    background-color: var(--background-primary-alt);
 }
 .workspace-tab-header-container {
-    background-color: #161616;
+    background-color: var(--background-primary-alt);
 }
 .titlebar-button {
-    background-color: #161616;
+    background-color: var(--background-primary-alt);
 }
 
 /* --- Old metadata/yaml text size --- */
