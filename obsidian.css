@@ -24,10 +24,15 @@
 }
 
 
-/* --- old tag color --- */
+/* --- old tag color and padding --- */
 .cm-s-obsidian span.cm-hashtag {
     color: var(--text-accent);
     text-decoration: underline;
+	background-color: var(--background-primary);
+	font-size: var(--font-text);
+	padding-top: 0;
+	padding-right: 0;
+    padding-left: 0;
 }
 /* --- replicate old checkboxes kinda --- */
 .task-list-item-checkbox {
