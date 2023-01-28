@@ -121,6 +121,16 @@ body {
 .cm-hmd-frontmatter {
     font-size: 14px;
 }
+.frontmatter-container {
+    font-size: 14px;
+	color: var(--text-muted);
+    font-family: var(--font-monospace);
+}
+.frontmatter-container .frontmatter-section-label {
+    font-size: 14px;
+	color: var(--text-muted);
+    font-family: var(--font-monospace);
+}
 
 /* --- Fix link underline --- */
 .markdown-rendered .internal-link.is-unresolved, .markdown-source-view.mod-cm6 .is-unresolved .cm-underline {
