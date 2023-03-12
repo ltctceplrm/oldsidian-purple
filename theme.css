@@ -9,7 +9,8 @@
 	--background-modifier-error:#5C0000;
     --background-modifier-error-hover: #990000;
 	--text-highlight-bg: #6C41D8;
-	--nav-item-background-active: #6C41D8
+	--nav-item-background-active: #6C41D8;
+	--tab-min-width: 100px;
 	/*	--text-selection:;*/
 }
 
@@ -73,7 +74,9 @@
     border-color: var(--text-faint);
 }
 /* --- Old callouts --- */
-
+.callout-title > * {
+    align-self: center;
+}
 body {
     --callout-padding: 0;
     --callout-title-padding: var(--size-4-2) var(--size-4-2) var(--size-4-2) var(--size-4-3);
@@ -136,4 +139,9 @@ body {
 .markdown-rendered .internal-link.is-unresolved, .markdown-source-view.mod-cm6 .is-unresolved .cm-underline {
     text-decoration-line: underline;
     text-decoration-color: var(--link-unresolved-decoration-style);
+}
+
+/* --- Minimum tab size --- */
+.workspace .mod-root .workspace-tab-header {
+    min-width: var(--tab-min-width);
 }
