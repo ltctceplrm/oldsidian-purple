@@ -145,3 +145,50 @@ body {
 .workspace .mod-root .workspace-tab-header {
     min-width: var(--tab-min-width);
 }
+
+/* --- Align tables  by css classes--- */
+.AlignTopRight .table-view-table > tbody > tr > td {
+    vertical-align: top;
+    text-align: right;
+}
+
+.AlignTopLeft .table-view-table > tbody > tr > td {
+    vertical-align: top;
+    text-align: left;
+}
+
+.AlignTopCenter .table-view-table > tbody > tr > td {
+    vertical-align: top;
+    text-align: center;
+}
+
+.AlignCenterLeft .table-view-table > tbody > tr > td {
+    vertical-align: Center;
+    text-align: left;
+}
+
+.AlignCenterRight .table-view-table > tbody > tr > td {
+    vertical-align: center;
+    text-align: right;
+}
+
+.AlignCenterCenter .table-view-table > tbody > tr > td {
+    vertical-align: center;
+    text-align: center;
+}
+
+.AlignBottomLeft .table-view-table > tbody > tr > td {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.AlignBottomRight .table-view-table > tbody > tr > td {
+    vertical-align: bottom;
+    text-align: right;
+}
+
+.AlignBottomCenter .table-view-table > tbody > tr > td {
+    vertical-align: bottom;
+    text-align: center;
+}
+

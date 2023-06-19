@@ -6,7 +6,10 @@ A dark theme for obsidian based on the old pre 1.0 theme.
 - Prettier purple highlights
 - Previous look of the tags
 - YAML back to regular font and size
+
+Some additions:
 - Minimum tab size of 100px (modifiable with --tab-min-width)
+- cssClasses to align tables
 
 ## Screenshots
 ![Screenshot 1](https://github.com/ltctceplrm/oldsidian-purple/blob/main/Screenshot%201.png?raw=true" "Screenshot 1")
