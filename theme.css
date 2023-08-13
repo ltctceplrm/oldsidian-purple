@@ -191,4 +191,7 @@ body {
     vertical-align: bottom;
     text-align: center;
 }
-
+/* --- Remove header padding--- */
+.cm-s-obsidian .cm-line.HyperMD-header {
+     padding-top:0;
+}
