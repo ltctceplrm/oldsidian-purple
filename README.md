@@ -10,6 +10,7 @@ A dark theme for obsidian based on the old pre 1.0 theme.
 Some additions:
 - Minimum tab size of 100px (modifiable with --tab-min-width)
 - cssClasses to align tables
+- cssClasses to hide all the lables in the bases card view (`hidebasefieldnames`)
 
 ## Screenshots
 ![Screenshot 1](https://github.com/ltctceplrm/oldsidian-purple/blob/main/Screenshot%201.png?raw=true" "Screenshot 1")
