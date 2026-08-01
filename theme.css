@@ -88,7 +88,7 @@ body {
 }
 
 .callout {
-    border-left: 4px solid rgba(var(--callout-color), 1);
+    border-left: 4px solid color-mix(in srgb, var(--callout-color) 100%, transparent);
 }
 
 .callout-title-inner {
@@ -96,7 +96,7 @@ body {
 }
 
 .callout-title {
-    background-color: rgba(var(--callout-color), 0.2);
+    background-color: color-mix(in srgb, var(--callout-color) 20%, transparent);
 }
 
 .callout-content {
