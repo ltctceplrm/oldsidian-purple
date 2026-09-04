@@ -15,6 +15,13 @@
 	/*	--text-selection:;*/
 }
 
+.is-hidden-frameless:not(.is-fullscreen) .titlebar-button-container.mod-right {
+    background-color: var(--background-primary-alt);
+}
+.is-hidden-frameless:not(.is-fullscreen).is-focused .titlebar-button-container.mod-right {
+    background-color: var(--background-primary-alt);
+}
+
 /* --- Purple highlighting --- */
 .markdown-preview-view mark {
     background-color: var(--interactive-accent);
