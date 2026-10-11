@@ -12,7 +12,12 @@
 	--nav-item-background-active: #6C41D8;
 	--tab-min-width: 100px;
 	--bases-cards-background:#161616;
+    --file-header-justify: center;
 	/*	--text-selection:;*/
+}
+
+.mod-sidedock .workspace-tab-header-container {
+    background-color: var(--background-primary-alt);
 }
 
 .is-hidden-frameless:not(.is-fullscreen) .titlebar-button-container.mod-right {
@@ -95,7 +100,7 @@ body {
 }
 
 .callout {
-    border-left: 4px solid rgba(var(--callout-color), 1);
+    border-left: 4px solid color-mix(in srgb, var(--callout-color) 100%, transparent);
 }
 
 .callout-title-inner {
@@ -103,7 +108,7 @@ body {
 }
 
 .callout-title {
-    background-color: rgba(var(--callout-color), 0.2);
+    background-color: color-mix(in srgb, var(--callout-color) 20%, transparent);
 }
 
 .callout-content {

@@ -12,7 +12,19 @@
 	--nav-item-background-active: #6C41D8;
 	--tab-min-width: 100px;
 	--bases-cards-background:#161616;
+    --file-header-justify: center;
 	/*	--text-selection:;*/
+}
+
+.mod-sidedock .workspace-tab-header-container {
+    background-color: var(--background-primary-alt);
+}
+
+.is-hidden-frameless:not(.is-fullscreen) .titlebar-button-container.mod-right {
+    background-color: var(--background-primary-alt);
+}
+.is-hidden-frameless:not(.is-fullscreen).is-focused .titlebar-button-container.mod-right {
+    background-color: var(--background-primary-alt);
 }
 
 /* --- Purple highlighting --- */
