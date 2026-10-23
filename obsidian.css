@@ -13,7 +13,14 @@
 	--tab-min-width: 100px;
 	--bases-cards-background:#161616;
     --file-header-justify: center;
-	/*	--text-selection:;*/
+    --highlight-background-purple: #6C41D8;
+    --highlight-background: #6C41D8;
+    --highlight-background-red: #990000;
+    --highlight-background-green: #008e00;
+    --highlight-background-blue: #00458b;
+    --highlight-background-yellow: #baae00;
+    --highlight-background-orange: #cd8500;
+    /*	--text-selection:;*/
 }
 
 .mod-sidedock .workspace-tab-header-container {
@@ -26,17 +33,6 @@
 .is-hidden-frameless:not(.is-fullscreen).is-focused .titlebar-button-container.mod-right {
     background-color: var(--background-primary-alt);
 }
-
-/* --- Purple highlighting --- */
-.markdown-preview-view mark {
-    background-color: var(--interactive-accent);
-    color: var(--text-normal);
-    }
-.cm-s-obsidian span.cm-formatting-highlight, .cm-s-obsidian span.cm-highlight {
-    background-color: var(--interactive-accent);
-    color: var(--text-normal);
-}
-
 
 /* --- old tag color and padding --- */
 .cm-s-obsidian span.cm-hashtag {
